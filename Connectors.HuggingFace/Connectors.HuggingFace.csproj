@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- THIS PROPERTY GROUP MUST COME FIRST -->
+    <AssemblyName>Microsoft.SemanticKernel.Connectors.HuggingFace</AssemblyName>
+    <RootNamespace>$(AssemblyName)</RootNamespace>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <VersionSuffix>preview</VersionSuffix>
+  </PropertyGroup>
+
+
+  <PropertyGroup>
+    <!-- NuGet Package Settings -->
+    <Title>Semantic Kernel - Hugging Face AI connectors</Title>
+    <Description>Semantic Kernel connectors for Hugging Face. Contains clients for text generation and text embedding generation.</Description>
+  </PropertyGroup>
+
+</Project>
